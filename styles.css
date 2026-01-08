@@ -9,6 +9,7 @@
     font-optical-sizing: auto;
     color: #001931;
 }
+
 /* Hero Section Styles */
 
 .nav-container {
@@ -18,7 +19,7 @@
 }
 
 .hero .navbar {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,11 +34,13 @@
     gap: 32px;
     align-items: center;
 }
+
 .navbar ul li a {
     transition: 0.3s;
     padding: 12px;
     border-radius: 10px;
 }
+
 .navbar ul li a:hover {
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -73,15 +76,17 @@ a:hover {
     color: rgba(0, 0, 0, 0.589);
     box-shadow: 0px 0px 5px #469165ab;
 }
+
 i {
     margin-left: 5px;
 }
+
 .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -101,6 +106,7 @@ i {
     border: none;
     transition: 0.3s;
 }
+
 .hero-container .early-access img {
     margin-right: 6px;
 }
@@ -118,6 +124,7 @@ i {
 .color-green {
     color: #30B868;
 }
+
 .hero-container p {
     font-size: 18px;
     line-height: 33px;
@@ -181,7 +188,7 @@ section {
 }
 
 .idea-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,13 +208,14 @@ section {
 }
 
 .idea-card {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
 }
+
 
 .center-box {
     display: flex;
@@ -216,8 +224,9 @@ section {
     gap: 26px;
 }
 
+
 .card {
-    border: 2px solid black;
+    
     width: 290px;
     height: 290px;
     padding: 55px 25px;
@@ -229,6 +238,7 @@ section {
 .card:hover {
     box-shadow: 0px 10px 25px 7px rgb(0 0 0 / 10%);
 }
+
 .card .card-img-box {
     background-color: #F95555;
     width: 60px;
@@ -246,16 +256,17 @@ section {
     color: #001931;
 }
 
+
 .card p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
 }
 
-/* Solution Sectin Styles */
+
 
 .solution {
-    border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +274,7 @@ section {
 }
 
 .solution-container {
-    border: 2px solid blue;
+    
     display: flex;
     align-items: center;
     width: 85%;
@@ -307,12 +318,13 @@ section {
     display: flex;
     align-items: center;
 }
+
 .soluction-content ul li img {
     margin-right: 8px;
 }
 
 .early-access-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,6 +332,7 @@ section {
     flex-direction: column;
     padding: 180px 40px;
 }
+
 .early-content {
     background-color: #8080800d;
     box-shadow: 0px 2px 10px #00000026;
@@ -332,11 +345,13 @@ section {
     background-color: rgba(255, 255, 255, 0.075);
 
 }
+
 .early-access-content h1 {
     font-size: 40px;
     color: #001931;
     font-weight: bold;
 }
+
 .early-access-content p {
     line-height: 24px;
     font-size: 16px;
@@ -348,6 +363,8 @@ section {
 .early-access-content a {
     color: white;
 }
+
+
 footer {
     background-color: #001931;
     display: flex;
@@ -355,8 +372,9 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+
 footer .footer-container {
-    border: 2px solid red;
+    
     width: 85%;
     max-width: 1360px;
     display: flex;
