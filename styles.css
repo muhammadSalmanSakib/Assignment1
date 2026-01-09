@@ -361,7 +361,7 @@ section {
 }
 
 .early-access-content a {
-    color: white;
+    
 }
 
 
@@ -374,7 +374,8 @@ footer {
 }
 
 footer .footer-container {
-    
+      /* background: rgba(255, 255, 255, 0.2); */
+      /* border: 2px solid gray ; */
     width: 85%;
     max-width: 1360px;
     display: flex;
@@ -384,11 +385,13 @@ footer .footer-container {
 }
 
 footer .footer-container .footer-content {
-    border: 2px solid gray;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
 }
 
 footer .social-link h3 {
